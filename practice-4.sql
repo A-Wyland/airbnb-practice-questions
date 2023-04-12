@@ -5,3 +5,7 @@
 -- +----------+
 
 
+select
+count(id)
+from listings
+where neighborhood = 'Lincoln Park';
